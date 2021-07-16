@@ -1,0 +1,78 @@
+html, body{
+    background-repeat: no-repeat;
+    background-image: url(fundoo.jpg) ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+body {
+    margin-top: 50px;
+}
+
+.container {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border: 6px solid white;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.next, .back{
+    border-radius: 50%;
+    border: none;
+    width: 50px;
+    height: 50px;
+
+    background-size: cover;
+    align-self: center;
+    margin: 23px;
+    margin-bottom: 50px;
+
+}
+
+.next{
+    background-image: url(proximo.jpg);
+}
+
+.back{
+    background-image: url(anterior.jpg);
+}
+
+#descricao{
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    margin-top:20px;
+    color:white;
+
+}
+
+td, th{
+    width:140px;
+    color:white;
+}
+
+td{
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    background-color:slateblue;
+
+}
